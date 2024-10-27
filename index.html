@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products | Cart</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <h1>Sasta Blinkit</h1>
+    </header>
+    <main>
+        <section class="products-container">
+            <h1>Products</h1>
+            <form action="">
+                <input type="text" placeholder="Enter the product" id="product">
+                <input type="number" name="Price" id="price" placeholder="Price">
+                <button type="button" id="add-product">Add</button>
+            </form>
+            <p id="adding-info">You didn't added any product yet.</p>
+            <div class="dynamic-div"></div>
+        </section>
+        <section class="cart-container">
+            <h1>Cart</h1>
+            <div class="dynamic-div-2"></div>
+            <div class="total">
+                <span>TOTAL -: </span>
+                <span id="totalPrice">0</span>
+            </div>
+        </section>
+    </main>
+
+    <script src="./script.js"></script>
+</body>
+</html>
